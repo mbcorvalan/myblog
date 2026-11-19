@@ -17,7 +17,7 @@ export function Hero() {
 
       <section className={`container ${styles.hero}`}>
         <div className={styles.text}>
-          <p className={styles.body}>{hero.heading} {withItalics(hero.body)}</p>
+          <p className={styles.body}>{withItalics(hero.body)}</p>
         </div>
         <div className={styles.media}>
           {hero.image ? (

@@ -15,7 +15,6 @@ export const siteConfig = {
       : "http://localhost:3000"),
 
   hero: {
-    heading: "Un blog sobre mis ideas.",
     // Las palabras entre *asteriscos* se muestran en itálica
     body: "Una bitácora personal que escapa del *scrolleo* y habita Internet de otra manera. Acá no hay likes ni algoritmos. Solo ideas de alguien a quien le gusta detenerse a escuchar sus propios pensamientos.",
     // Imagen en /public/images (null = placeholder)
