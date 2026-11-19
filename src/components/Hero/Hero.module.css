@@ -1,0 +1,23 @@
+.masthead { text-align: center; padding-top: 40px; padding-bottom: 20px; }
+.title {
+  font-family: var(--serif); font-weight: 400;
+  font-size: clamp(44px, 8vw, 96px); line-height: 1.02; letter-spacing: -0.02em;
+  margin: 0 auto; max-width: 14ch;
+}
+
+.hero {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: center;
+  padding-top: 0; padding-bottom: 24px;
+}
+.body { font-size: 21px; line-height: 1.5; color: #333; margin: 0; max-width: 42ch; }
+
+/* ilustración suelta (PNG transparente) en su proporción original 3:2, sin espacio vacío */
+.media { position: relative; aspect-ratio: 3 / 2; }
+.img { object-fit: contain; }
+.placeholder {
+  position: absolute; inset: 0; display: grid; place-items: center;
+  color: var(--muted); font-size: 14px; border: 1px dashed #cfcfcf; border-radius: var(--radius);
+}
+
+@media (max-width: 860px) {
+  .hero { grid-template-columns: 1fr; gap: 32px; }}

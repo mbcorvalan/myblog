@@ -1,0 +1,16 @@
+.header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 20px 28px; gap: 16px;
+}
+.logo { display: inline-flex; color: var(--fg); }
+.nav { display: flex; align-items: center; gap: 8px; }
+.social {
+  display: inline-grid; place-items: center;
+  width: 36px; height: 36px; border: 1px solid var(--line); border-radius: 8px;
+  font-size: 13px; font-weight: 600; text-decoration: none;
+  transition: border-color .15s;
+}
+.social:hover { border-color: var(--fg); }
+@media (max-width: 640px) {
+  .header { padding: 16px; }
+}
