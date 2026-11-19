@@ -35,7 +35,7 @@ export default async function PostPage({ params }: Props) {
 
   return (
     <article className={`container ${styles.article}`}>
-      <Link href="/#escritos" className={styles.back}>Volver</Link>
+      <Link href="/" className={styles.back}>Volver</Link>
       <header className={styles.header}>
         <p className={styles.meta}>
           <span className={styles.kind}>{KIND_LABEL[post.kind]}</span>
