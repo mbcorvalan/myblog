@@ -4,7 +4,8 @@
  */
 export const siteConfig = {
   title: "Ideas en tiempos de TikTok",
-  subtitle: "Escrituras, ideas de proyectos y todo lo que no entra en quince segundos.",
+  // Descripción del sitio en Google y al compartir (no se muestra en la página)
+  subtitle: "Una bitácora personal que escapa del scrolleo y habita Internet de otra manera.",
   // Dirección pública del sitio. En Vercel se toma sola (ej. https://mi-blog.vercel.app);
   // si algún día comprás un dominio, cargalo en la variable NEXT_PUBLIC_SITE_URL.
   url:
@@ -16,7 +17,7 @@ export const siteConfig = {
   hero: {
     heading: "Un blog sobre mis ideas.",
     // Las palabras entre *asteriscos* se muestran en itálica
-    body: "Una bitácora personal que intenta escapar del vasto universo del *scrolleo*. Acá no hay likes ni algoritmos. Solo ideas de alguien a quien le gusta detenerse a escuchar sus propios pensamientos.",
+    body: "Una bitácora personal que escapa del *scrolleo* y habita Internet de otra manera. Acá no hay likes ni algoritmos. Solo ideas de alguien a quien le gusta detenerse a escuchar sus propios pensamientos.",
     // Imagen en /public/images (null = placeholder)
     image: "/images/me_and_mycat.png" as string | null,
     imageAlt: "Yo con mi gato",
