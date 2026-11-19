@@ -16,7 +16,7 @@ export const siteConfig = {
 
   hero: {
     // Las palabras entre *asteriscos* se muestran en itálica
-    body: "Una bitácora personal que escapa del *scrolleo* y habita Internet de otra manera. Acá no hay likes ni algoritmos. Solo ideas de alguien a quien le gusta detenerse a escuchar sus propios pensamientos.",
+    body: "Una bitácora personal que escapa del *scrolleo* y habita Internet de otra manera. Acá no hay likes ni algoritmos. Solo ideas de alguien a quien le gusta detenerse a escuchar sus pensamientos.",
     // Imagen en /public/images (null = placeholder)
     image: "/images/me_and_mycat.png" as string | null,
     imageAlt: "Yo con mi gato",
