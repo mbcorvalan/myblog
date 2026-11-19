@@ -5,7 +5,13 @@
 export const siteConfig = {
   title: "Ideas en tiempos de TikTok",
   subtitle: "Escrituras, ideas de proyectos y todo lo que no entra en quince segundos.",
-  url: "https://example.com",
+  // Dirección pública del sitio. En Vercel se toma sola (ej. https://mi-blog.vercel.app);
+  // si algún día comprás un dominio, cargalo en la variable NEXT_PUBLIC_SITE_URL.
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : "http://localhost:3000"),
 
   hero: {
     heading: "Un blog sobre mis ideas.",
